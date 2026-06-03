@@ -13,3 +13,5 @@ vendor
 /ray.php
 .env
 scratches
+.phpunit.cache
+*.bak

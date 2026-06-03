@@ -1,43 +1,47 @@
 {
-    "name": "yediyuz/laravel-cloudflare-cache",
-    "description": "laravel-cloudflare-cache",
+    "name": "leknoppix/laravel-cloudflare-cache",
+    "description": "Laravel Cloudflare Cache — fork mis à jour pour Laravel 13",
     "keywords": [
         "cloudflare",
         "cache",
         "cloudflare-cache",
         "laravel-cloudflare-cache",
         "laravel",
-        "yediyuz"
+        "leknoppix"
     ],
-    "homepage": "https://github.com/yediyuz/laravel-cloudflare-cache",
+    "homepage": "https://github.com/leknoppix/laravel-cloudflare-cache",
     "license": "MIT",
     "authors": [
         {
+            "name": "Pascal Canadas",
+            "email": "leknoppix@leknoppix.net",
+            "role": "Developer"
+        },
+        {
             "name": "Emre Dipi",
             "email": "mail@emredipi.com",
-            "role": "Developer"
+            "role": "Original Developer"
         },
         {
             "name": "Mert Aşan",
             "email": "mert@yediyuz.com",
-            "role": "Developer"
+            "role": "Original Developer"
         }
     ],
     "require": {
         "php": "^8.2",
         "guzzlehttp/guzzle": "^7.8.2",
-        "illuminate/contracts": "^11.0|^12.9.2",
-        "illuminate/routing": "^11.0|^12.9.2",
-        "laravel/pint": "^1.22",
+        "illuminate/contracts": "^11.0|^12.9.2|^13.0",
+        "illuminate/routing": "^11.0|^12.9.2|^13.0",
         "spatie/laravel-package-tools": "^1.16"
     },
     "require-dev": {
         "larastan/larastan": "^3.0",
-        "laravel/framework": "^11.0|^12.9.2",
+        "laravel/framework": "^11.0|^12.9.2|^13.0",
         "nunomaduro/collision": "^8.1.1",
-        "orchestra/testbench": "^9.0|^10.0",
-        "pestphp/pest": "^3.0",
-        "pestphp/pest-plugin-laravel": "^3.0",
+        "orchestra/testbench": "^9.0|^10.0|^11.0",
+        "pestphp/pest": "^4.0",
+        "pestphp/pest-plugin-laravel": "^4.0",
         "phpstan/phpstan": "^2.0",
         "spatie/laravel-ray": "^1.40.1"
     },

@@ -40,9 +40,17 @@ it('should filter cache tag types as expected', function ($tags, $expectedTags, 
     ]);
 
 test('cache tag must exist in the header only if used', function () {
-    $response = $this->get('content_without_tags');
+    Route::cache()->get('/test_no_tags', function () {
+        return 'test';
+    });
+
+    $response = $this->get('test_no_tags');
     $this->assertFalse($response->headers->has('Cache-Tags'));
 
-    $response = $this->get('content_in_args');
-    $this->assertTrue($response->headers->has('Cache-Tags'));
+    Route::cache(tags: ['tagA'])->get('/test_with_tags', function () {
+        return 'test';
+    });
+
+    $response = $this->get('test_with_tags');
+    expect($response)->assertHeader('Cache-Tags', 'tagA');
 });

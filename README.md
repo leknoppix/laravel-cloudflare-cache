@@ -1,16 +1,17 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://banners.beyondco.de/Laravel%20Cloudflare%20Cache.png?theme=dark&packageManager=composer+require&packageName=yediyuz%2Flaravel-cloudflare-cache&pattern=architect&style=style_1&description=Serve+millions+of+requests+by+caching+with+Cloudflare&md=1&showWatermark=0&fontSize=100px&images=server">
-  <source media="(prefers-color-scheme: light)" srcset="https://banners.beyondco.de/Laravel%20Cloudflare%20Cache.png?theme=light&packageManager=composer+require&packageName=yediyuz%2Flaravel-cloudflare-cache&pattern=architect&style=style_1&description=Serve+millions+of+requests+by+caching+with+Cloudflare&md=1&showWatermark=0&fontSize=100px&images=server">
-  <img alt="Package Image" src="https://banners.beyondco.de/Laravel%20Cloudflare%20Cache.png?theme=light&packageManager=composer+require&packageName=yediyuz%2Flaravel-cloudflare-cache&pattern=architect&style=style_1&description=Serve+millions+of+requests+by+caching+with+Cloudflare&md=1&showWatermark=0&fontSize=100px&images=server">
+  <source media="(prefers-color-scheme: dark)" srcset="https://banners.beyondco.de/Laravel%20Cloudflare%20Cache.png?theme=dark&packageManager=composer+require&packageName=leknoppix%2Flaravel-cloudflare-cache&pattern=architect&style=style_1&description=Serve+millions+of+requests+by+caching+with+Cloudflare&md=1&showWatermark=0&fontSize=100px&images=server">
+  <source media="(prefers-color-scheme: light)" srcset="https://banners.beyondco.de/Laravel%20Cloudflare%20Cache.png?theme=light&packageManager=composer+require&packageName=leknoppix%2Flaravel-cloudflare-cache&pattern=architect&style=style_1&description=Serve+millions+of+requests+by+caching+with+Cloudflare&md=1&showWatermark=0&fontSize=100px&images=server">
+  <img alt="Package Image" src="https://banners.beyondco.de/Laravel%20Cloudflare%20Cache.png?theme=light&packageManager=composer+require&packageName=leknoppix%2Flaravel-cloudflare-cache&pattern=architect&style=style_1&description=Serve+millions+of+requests+by+caching+with+Cloudflare&md=1&showWatermark=0&fontSize=100px&images=server">
 </picture>
 
 # Laravel Cloudflare Cache
 
 <p>
-    <a href="https://github.com/yediyuz/laravel-cloudflare-cache/actions"><img src="https://img.shields.io/github/actions/workflow/status/yediyuz/laravel-cloudflare-cache/tests.yml?branch=master&label=tests" alt="Test Status"></a>
-    <a href="https://packagist.org/packages/yediyuz/laravel-cloudflare-cache"><img src="https://img.shields.io/packagist/v/yediyuz/laravel-cloudflare-cache.svg?style=flat-square" alt="Latest Release"></a>
-    <a href="https://github.com/mertasan/tailwindcss-variables/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?label=license" alt="License"></a>
+    <a href="https://packagist.org/packages/leknoppix/laravel-cloudflare-cache"><img src="https://img.shields.io/packagist/v/leknoppix/laravel-cloudflare-cache.svg?style=flat-square" alt="Latest Release"></a>
+    <a href="https://github.com/leknoppix/laravel-cloudflare-cache/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?label=license" alt="License"></a>
 </p>
+
+> **Fork de [yediyuz/laravel-cloudflare-cache](https://github.com/yediyuz/laravel-cloudflare-cache)** — mis à jour pour Laravel 13.
 
 You can serve millions of requests with this package. This package provides cacheable routes for Cloudflare. Thanks to Cloudflare, your static pages are served efficiently, reducing the load on your servers if they are cached for the TTL (Time to Live) duration. You can purge the cache whenever you need with this package.
 
@@ -19,7 +20,7 @@ You can serve millions of requests with this package. This package provides cach
 You can install the package via composer:
 
 ```bash
-composer require yediyuz/laravel-cloudflare-cache
+composer require leknoppix/laravel-cloudflare-cache
 ```
 
 You can publish the config file with:
@@ -172,11 +173,11 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/yediyuz/.github/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/leknoppix/laravel-cloudflare-cache/blob/master/CONTRIBUTING.md) for details.
 
 ## Security
 
-If you've found a bug regarding security please mail security@yediyuz.com instead of using the issue tracker.
+If you've found a bug regarding security please open an issue on the [GitHub repository](https://github.com/leknoppix/laravel-cloudflare-cache/issues).
 
 ## Credits
 - [Emre Dipi](https://github.com/emredipi)
